@@ -7,12 +7,18 @@
   margin: 0 auto;
 }
 
+.send-message--rectangle {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 45px;
+}
+
 .send-message__input {
   display: flex;
   align-items: center;
 
   background-color: rgba(0, 0, 0, 0.05);
-  border-radius: 10px;
+  border-radius: 18px;
 
   height: 36px;
 }
@@ -27,6 +33,10 @@
   margin-left: 10px;
 
   font-size: 17px;
+}
+
+.send-message__input-area--collapse {
+  width: 265px;
 }
 
 .send-message__icon {
