@@ -1,0 +1,36 @@
+.top-bar {
+  display: flex;
+  align-items: center;
+
+  padding: 8px 0;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.top-bar__background {
+  background-color: #fff;
+}
+
+.top-bar__input {
+  width: 360px;
+
+  display: flex;
+  align-items: center;
+
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.top-bar__input-text {
+  border: none;
+  background: none;
+  outline: none;
+
+  font-size: 17px;
+}
+
+.top-bar__input-text::placeholder {
+  color: rgba(142, 142, 147, 1);
+  font-weight: 400;
+}
