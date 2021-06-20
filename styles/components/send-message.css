@@ -1,0 +1,34 @@
+.send-message {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 90%;
+  margin: 0 auto;
+}
+
+.send-message__input {
+  display: flex;
+  align-items: center;
+
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+
+  height: 36px;
+}
+
+.send-message__input-area {
+  width: 135px;
+
+  border: none;
+  background: none;
+  outline: none;
+
+  margin-left: 10px;
+
+  font-size: 17px;
+}
+
+.send-message__icon {
+  margin-right: 6px;
+}

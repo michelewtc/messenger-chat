@@ -9,6 +9,7 @@ h4,
 h5,
 h6,
 p,
-span {
+span,
+input {
   font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
 }
