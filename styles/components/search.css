@@ -1,0 +1,22 @@
+.search__background {
+  background-color: #f9f8f9;
+}
+
+.search {
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.search__input {
+  border: none;
+  background: none;
+  outline: none;
+
+  font-size: 15px;
+}
+
+.search__input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: 600;
+}

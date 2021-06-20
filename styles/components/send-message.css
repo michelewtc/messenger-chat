@@ -39,6 +39,10 @@
   width: 265px;
 }
 
+.send-message__input-area::placeholder {
+  color: rgba(153, 153, 153, 1);
+}
+
 .send-message__icon {
   margin-right: 6px;
 }
