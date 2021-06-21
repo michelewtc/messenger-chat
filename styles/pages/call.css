@@ -1,0 +1,20 @@
+@import "../utils/index.css";
+@import "../components/status-bar.css";
+@import "../components/call-person.css";
+
+body {
+  position: relative;
+}
+
+.wallpaper {
+  width: 100%;
+
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.chat__icon {
+    margin-top: 9px;
+    margin-left: 21px;
+}
