@@ -1,6 +1,7 @@
 @import "../utils/index.css";
 @import "../components/status-bar.css";
 @import "../components/call-person.css";
+@import "../components/bottom-bar.css";
 
 body {
   position: relative;
@@ -17,4 +18,13 @@ body {
 .chat__icon {
     margin-top: 9px;
     margin-left: 21px;
+}
+
+.line {
+  width: 45%;
+  margin: 0 auto;
+
+  background-color: #fff;
+  border-radius: 100px;
+  height: 2px;
 }

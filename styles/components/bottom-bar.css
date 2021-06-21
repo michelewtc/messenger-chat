@@ -1,0 +1,9 @@
+.bottom-bar {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+
+    margin-top: 355px;
+    margin-bottom: 50px;
+}
