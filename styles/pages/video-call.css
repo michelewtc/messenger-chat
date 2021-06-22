@@ -1,0 +1,39 @@
+@import "../utils/index.css";
+@import "../components/status-bar.css";
+@import "../components/menu-bar.css";
+@import "../components/call-person.css";
+@import "../components/bottom-bar.css";
+
+body {
+  position: relative;
+}
+
+.wallpaper {
+  width: 100%;
+
+
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.effects__icon {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 300px;
+    margin-bottom: 40px;
+
+}
+
+
+.line {
+  width: 35%;
+  margin: 0 auto;
+
+  background-color: #fff;
+  border-radius: 100px;
+  height: 2px;
+
+  margin-top: 40px;
+}

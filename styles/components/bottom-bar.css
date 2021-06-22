@@ -7,3 +7,10 @@
     margin-top: 355px;
     margin-bottom: 50px;
 }
+
+.bottom-bar-video {
+   width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}

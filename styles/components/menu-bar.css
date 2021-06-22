@@ -1,0 +1,10 @@
+.menu-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 90%;
+    margin: 0 auto;
+
+    margin-top: 8px;
+}
